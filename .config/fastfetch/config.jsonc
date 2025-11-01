@@ -1,0 +1,51 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+    "logo": {
+        "source": "~/.local/share/fastfetch/ascii/vhs-color.ascii",
+        "padding": {
+            "top": 1,
+            "right": 4
+        }
+    },
+
+  "display": {
+    "brightColor": true,
+    "separator": " › ",
+    "size": {
+      "binaryPrefix": "jedec"
+    }
+  },
+  "modules": [
+
+    "break",
+  {
+    "type": "title",
+    "format": "\u001b[1m{#magenta}ashuhlee\u001b[0m@\u001b[1m{#magenta}macbook-pro\u001b[0m"
+  },
+  {
+  "type": "separator",
+  "string": "⊹ .　˚　. 　 ⁺　✿ .　˚　. 　˚　✿ ."
+  },
+    "os",
+    "host",
+    "shell",
+    "packages",
+    "terminal",
+  {
+    "type": "cpu",
+    "key": "CPU",
+    "format": "{name} ({cores-logical}) @ {freq-max}"
+  },
+  {
+    "type": "gpu",
+    "key": "GPU",
+    "format": "{name} ({core-count}) @ {frequency} → {shared-used} / {shared-total} ({shared-percentage-num})"
+  },
+    "memory",
+    "break",
+  {
+      "type": "colors",
+      "symbol": "block"
+  }
+  ]
+}
