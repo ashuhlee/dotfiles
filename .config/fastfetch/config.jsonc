@@ -1,51 +1,57 @@
 {
-  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-        "source": "~/.local/share/fastfetch/ascii/vhs-color.ascii",
+//        path to ascii goes here
+        "source": "",
         "padding": {
-            "top": 1,
-            "right": 4
-        }
+            "top": 4,
+            "right": 5
+        },
+        "color": { "1": "#CAD3F5" }
     },
-
-  "display": {
-    "brightColor": true,
-    "separator": " › ",
-    "size": {
-      "binaryPrefix": "jedec"
-    }
-  },
-  "modules": [
-
-    "break",
-  {
-    "type": "title",
-    "format": "\u001b[1m{#magenta}ashuhlee\u001b[0m@\u001b[1m{#magenta}macbook-pro\u001b[0m"
-  },
-  {
-  "type": "separator",
-  "string": "⊹ .　˚　. 　 ⁺　✿ .　˚　. 　˚　✿ ."
-  },
-    "os",
-    "host",
-    "shell",
-    "packages",
-    "terminal",
-  {
-    "type": "cpu",
-    "key": "CPU",
-    "format": "{name} ({cores-logical}) @ {freq-max}"
-  },
-  {
-    "type": "gpu",
-    "key": "GPU",
-    "format": "{name} ({core-count}) @ {frequency} → {shared-used} / {shared-total} ({shared-percentage-num})"
-  },
-    "memory",
-    "break",
-  {
-      "type": "colors",
-      "symbol": "block"
-  }
-  ]
+    "display": {
+        "separator": " "
+    },
+"modules": [
+        "break",
+        "break",
+        {
+            "type": "users",
+            "key": "HST ",
+            "format": "{name} ₊˚⊹ ᰔ",
+            "keyColor": "#9092fd"
+        },
+        {
+            "type": "os",
+            "key": "OS  ",
+            "keyColor": "#ab97fc"
+        },
+        {
+            "type": "terminal",
+            "key": "TER ",
+            "keyColor": "#c39dfb"
+        },
+        {
+            "type": "packages",
+            "key": "PKG ",
+            "keyColor": "#d7a4f9"
+        },
+        {
+            "type": "shell",
+            "key": "SH  ",
+            "keyColor": "#e8acf7"
+        },
+        {
+            "type": "cpu",
+            "key": "CPU ",
+            "keyColor": "#f7b5f6",
+            "format": "{name} ({cores-logical}) @ {freq-max}"
+        },
+        "break",
+        {
+            "type": "colors",
+            "symbol": "circle"
+        },
+        "break"
+    ]
 }

@@ -1,36 +1,28 @@
 
-font-family="JetBrains Mono"
-font-size=15
+font-family = "JetBrains Mono"
+window-theme = auto
 
-theme = Catppuccin Macchiato
+font-size = 14.5
 
-background = #1E2030
-
-window-padding-x = 20
-window-padding-y = 20
+window-padding-x = 25
+window-padding-y = 5
 window-padding-balance = true
 
-window-width = 132
-window-height = 36
+window-width = 110
+window-height = 26
 
 adjust-cell-height = 1
 
-macos-icon = custom
-macos-custom-icon = "/Users/ashuhlee/Downloads/cute-terminal.icns"
+macos-icon-frame = chrome
 
-
-
-window-theme = auto
-window-title-font-family="JetBrains Mono"
 
 unfocused-split-opacity = 1
 
-cursor-color = #F7B5F6
 cursor-style = block
 cursor-style-blink = false
 shell-integration-features = no-cursor
 
-palette = 0=#1B1D2B
+palette = 0=#494d64
 palette = 1=#F18FAD
 palette = 2=#bff2d0
 palette = 3=#FAE3B0
@@ -47,3 +39,10 @@ palette = 12=#b6dbfc
 palette = 13=#f9c4f8
 palette = 14=#c1ebff
 palette = 15=#C8D3F5
+
+background = #1D1E2E
+foreground = #cad3f5
+cursor-color = #F7B5F6
+cursor-text = #24273a
+selection-background = #7571F9
+selection-foreground = #FFFFFF
