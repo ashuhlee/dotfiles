@@ -15,6 +15,12 @@
 
 </div>
 
+<div align="center">
+
+![palette](assets/palette.png)
+
+</div>
+
 
 > [!NOTE]
 > The colors used are heavily inspired by [Catppucchin Macchiato](https://github.com/catppuccin)
