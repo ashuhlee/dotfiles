@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="assets/header.png" alt="header" width="500">
+<img src="assets/header.png" alt="header">
 <br><br>
 <img src="assets/showcase.png" alt="showcase">
 
