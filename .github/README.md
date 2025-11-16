@@ -1,9 +1,9 @@
 
 <div align="center">
 
-<img src=".github/assets/header.png" alt="header" width="500">
+<img src="assets/header.png" alt="header" width="500">
 <br><br>
-<img src=".github/assets/showcase.png" alt="showcase">
+<img src="assets/showcase.png" alt="showcase">
 
 </div>
 
