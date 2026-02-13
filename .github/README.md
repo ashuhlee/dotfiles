@@ -12,6 +12,12 @@
 
 </div>
 
+<br>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f80623bc-a2b0-4f73-ae74-30d96c679872" width="800">
+</div>
+<br>
+
 ### JetBrains IDE Theme
 #### JavaScript
 
