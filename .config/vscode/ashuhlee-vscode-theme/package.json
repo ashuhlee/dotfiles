@@ -1,0 +1,22 @@
+{
+	"name": "ashuhlee-theme",
+	"displayName": "Ashuhlee",
+	"description": "Ashuhlee color theme, converted from a JetBrains .icls color scheme",
+	"version": "1.0.0",
+	"publisher": "ashuhlee",
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Ashuhlee",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ashuhlee-color-theme.json"
+			}
+		]
+	}
+}
